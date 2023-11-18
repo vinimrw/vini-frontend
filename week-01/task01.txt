@@ -1,0 +1,11 @@
+O desafio a ser entregue até próximo sabado é o material do curso escolhido. 
+
+Primeira opçao: https://www.youtube.com/watch?v=tzaHrMx1ncc
+
+Se achar ele meio confuso, tente esse: https://www.youtube.com/watch?v=vQWlgd7hV4A
+
+Se tiver tempo tem esse de logica de programacao: https://www.youtube.com/watch?v=O_Cc-Xzc0zM
+
+Esse para ve mais sobre JS: https://www.youtube.com/watch?v=W3f6hiTLipc
+
+E se possível o desafio sobre no Github

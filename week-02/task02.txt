@@ -1,0 +1,21 @@
+Vai ser preciso criar duas aplicações. 
+
+A primeira é coletar as vagas de dois sites remoteok.com e weworkremotely.com
+
+É para ser pego: titulo da vaga, descrição e local caso não tenha local adicionar Remoto.
+
+O remoteok você vai pegar dados pela API deles.
+https://remoteok.com/api
+
+O weworkremotely eles não tem API então você vai ter que pegar "scraping" a pagina.
+A pagina é: https://weworkremotely.com/categories/remote-front-end-programming-jobs#job-listings
+
+Os dados coletados devem ser salvos em um UNICO JSON.
+
+A segunda aplicação você vai usar o JSON criado e vai criar uma pagina onde liste todos as vagas e um campo de texto para filtrar, onde usuário vai digitando e as vagas vão sendo filtradas.
+
+Nesse primeiro momento não precisa se preocupar com Design.
+
+As dicas sao, vai ter usar ASYNC, AWAIT e de ferramentas vai ser preciso node-fetch e puppeteer.
+
+Boa sorte :) 
