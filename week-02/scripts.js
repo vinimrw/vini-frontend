@@ -72,6 +72,7 @@ const getAllAPI = async () => {
 
     }).filter(Boolean);
     
+    //uma tentativa de juntar os arquivos, ainda precisa ser trbaalhada melhor
     const existingData = fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath)) : [];
     const updatedData = existingData.concat(filterJson);
     fs.writeFileSync(filePath, JSON.stringify(updatedData, null, 2));
