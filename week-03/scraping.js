@@ -59,7 +59,7 @@ const urlAPI = "https://remoteok.com/api"
 
 async function getRemoteOkJobsAPI() {
     return await withRetry(async () => {
-      const response = await fetch("https://remoteok.com/api");
+      const response = await fetch(urlAPI);
       if (!response.ok) {
         throw new Error(`RemoteOK API responded with status: ${response.status}`);
       }
@@ -81,9 +81,7 @@ async function getRemoteOkJobsAPI() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await withRetry(async () => {
-      await page.goto(
-        "https://weworkremotely.com/categories/remote-front-end-programming-jobs#job-listings",
-        { waitUntil: "networkidle2" }
+      await page.goto(urlPupp,{ waitUntil: "networkidle2" }
       );
     });
 
@@ -93,7 +91,7 @@ async function getRemoteOkJobsAPI() {
 
     const combinedJobs = [...jobs, ...remoteOkJobs];
 
-    fs.writeFile("data.json", JSON.stringify(combinedJobs, null, 2), (err) => {
+    fs.writeFile(filePath, JSON.stringify(combinedJobs, null, 2), (err) => {
       if (err) {
         console.error("Error occurred while saving job listings:", err);
       } else {
