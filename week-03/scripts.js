@@ -4,12 +4,8 @@ const searchInput = document.querySelector("[data-search]");
 const showFavoritesButton = document.getElementById("showFavoritesButton");
 const showAllButton = document.getElementById("showAllButton");
 
-
-
-
 let users = [];
 let favorites = [];
-
 
 function updateFavorites() {
   userCardContainer.childNodes.forEach(card => {
@@ -31,7 +27,7 @@ function loadFavoritesFromLocalStorage() {
   }
 }
 
-// Add event listener for the favorite button
+// Add event listener 
 userCardContainer.addEventListener("click", e => {
   if (e.target.matches("[data-favorite-button]")) {
     const card = e.target.closest(".card");
@@ -77,7 +73,7 @@ fetch("data.json")
     users = data.map((user, index) => {
       const card = userCardTemplate.content.cloneNode(true).children[0];
       
-      card.dataset.cardId = index; // Assign a unique identifier to each card
+      card.dataset.cardId = index; // Unique identifier to each card
 
       const header = card.querySelector("[data-header]");
       const body = card.querySelector("[data-body]");
