@@ -1,0 +1,13 @@
+Vamos prosseguir com o desenvolvimento da aplicação para pesquisa e listagem de vagas remotas em diversos sites.
+
+Utilizando o JSON que construímos, nosso próximo passo é desenvolver uma landing page que exiba as vagas disponíveis. Esta página deve incluir um sistema de filtros similar ao que você já implementou. Adicionalmente, vamos incluir um checkbox junto aos filtros para permitir aos usuários visualizarem apenas as vagas que marcaram como favoritas.
+
+Cada vaga listada deverá ter um botão que permita ao usuário marcá-la como favorita. Ao selecionar este botão, a vaga deve ser destacada com uma borda verde. Se o usuário decidir desfavoritar a vaga, clicando novamente no botão, esta deve ser removida da lista de favoritos.
+
+É essencial que todas as vagas favoritadas sejam armazenadas localmente no navegador do usuário. Assim, mesmo após atualizar ou fechar o navegador, estas informações devem permanecer acessíveis.
+
+Eu acho que já tem bastante coisa para ser feito, mas caso termine antes, me avisa que escrevo mais uma task.
+
+Os links do codigo:
+https://raw.githubusercontent.com/alissonrgalindo/RemoteDev/main/package.json
+https://raw.githubusercontent.com/alissonrgalindo/RemoteDev/main/index.js

@@ -1,0 +1,8 @@
+week-02/package-lock.json
+week-03/package-lock.json
+week-02/.vscode/
+week-03/.vscode/
+week-02/node_modules/
+week-03/node_modules/
+test/
+side-projects/
