@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+
+    max-width: 144rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    
+}
+
+.products{
+    padding: 7rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.product{
+    background: #f9f8fc;
+    /* padding: 0 0 2rem 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product img{
+    
+    width: 400px; 
+            height: 400px; 
+            object-fit: contain;
+}
+
+.product-content{
+    padding: 1rem 2rem;
+}
+
+.product .product-title{
+    font-size: 2rem;
+    padding:  1rem 0;
+}
+.product-discription{
+    text-align: justify;
+}
+.product-title,
+.product-price-container,
+.product-discription,
+.product-category {
+    padding: 0.5rem 0;
+}
+
+.product-price-container{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-to-cart{
+    background: rgb(118, 97, 255);
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 1rem;
+}
+
+/* nav */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #212529;
+    color: white;
+    padding: 25px 60px;
+    position: fixed;
+    width: 100%;
+}
+
+.cart{
+    position: relative;
+    background-color: #fff;
+    color: #212529;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.cartAmount{
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.img-container{
+    align-items: center;
+    padding: 0;
+}
+
+.navbar a{
+    color: white;
+}
+
+/* checkout */
+  
+  .checkout {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px;
+    font-size: 1rem;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tfoot {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: rgb(118, 97, 255);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  .checkoutB{
+    margin-top: 10px;
+  }

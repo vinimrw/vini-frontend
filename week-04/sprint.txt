@@ -1,0 +1,14 @@
+Utilizando uma dessas api:
+https://fakestoreapi.com/docs ou https://fakeapi.platzi.com/en/about/introduction/
+
+Vamos criar um "ecommerce", vamos pegar os produtos, listar eles, com imagem e titulo preço.
+
+Vamos poder adicionar ao carrinho, e vamos poder ir para tela de checkout ve os produtos que nos adicionamos ao carrinho.
+
+pode ignorar a UI, incialmente vai ser um home e uma checkout page.
+Os items devem ser salvos no localstorage, e deve ser calculado o valor total do carrinho no checkout.
+
+Listagem de produtos
+Adiconar ao carrinho
+Listagem e calculo dos produtos no carrinho na checkout page.
+
