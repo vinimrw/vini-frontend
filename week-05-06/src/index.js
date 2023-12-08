@@ -40,9 +40,9 @@ let generateShop = () => {
           <img src="${image}" alt="" class="product-img">
         </div>
         <div class="product-content">
-          <h2 class="product-title">${title.length > 18 ? title.substring(0,18).concat(' ...') : title}</h2>
+          <h2 class="product-title">${title}</h2>
           <h4 class="product-category">${category}</h4>
-          <p class="product-discription">${description. length > 20 ? description.substring(0,100).concat(' ...more') : description}</p>
+          <p class="product-discription">${description}</p>
           <div class="product-price-container">
             <h3 class="product-price">$${price}</h3>
             <div  id=${id} class="quantity">

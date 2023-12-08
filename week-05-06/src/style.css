@@ -54,15 +54,21 @@ body{
 .product .product-title{
     font-size: 2rem;
     padding:  1rem 0;
+
 }
 .product-discription{
     text-align: justify;
+    
 }
 .product-title,
 .product-price-container,
 .product-discription,
 .product-category {
     padding: 0.5rem 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:    ellipsis;
+    
 }
 
 .product-price-container{
