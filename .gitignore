@@ -6,3 +6,4 @@ week-02/node_modules/
 week-03/node_modules/
 test/
 side-projects/
+*.env

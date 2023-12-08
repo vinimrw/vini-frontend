@@ -1,0 +1,15 @@
+Nessa sprint vamos utilizar a aplicação de ecommerce feita anteriormente como base.
+
+Iremos criar uma pagina de Login com autenticação, usando JWT Token.
+
+Use essa API: https://fakeapi.platzi.com/en/rest/auth-jwt/ para fazer a autenticação.
+
+Assim que o usuário fizer o login ele é redirecionado para pagina de listagem de produtos.
+
+O token deve ser salvo por apenas 1 hora. 
+
+A página de checkout e listagem de produtos são privadas, apenas usuários logados podem acessar. Usuários não logados devem ser redirecionados para o Login.
+
+Deve ser adicionado um botão de logout no header do site.
+
+As stack a serem utilizadas sao, o node.js, express e jsonwebtoken
