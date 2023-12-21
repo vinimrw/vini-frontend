@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    all: unset;
+  }
+
+@media (max-width: 768px) {
+
+    .left-container{
+        display: none;
+    }
+
+    .righ-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid red; */
+        margin-top: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .right-logo{
+        width: 12.5rem;
+        height: 3.73975rem;
+        flex-shrink: 0;
+        align-self: center;
+        margin-bottom: 20%;
+    }
+
+    .sign{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    .sign > h2{
+        color: #030517;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .green_bar{
+        width: 0.4375rem;
+        height: 1.9375rem;
+        background-color: #35BDAC;
+        margin-right: 2%;
+    }
+
+    .email_fild{
+        width: 100%;
+        height: 3.125rem;
+        background: #EAEAEA;
+        display: flex;
+        border-radius: 0.125rem;
+        margin-bottom: 3%;
+    }
+
+    .email_fild > img{
+        width: 1.5rem;
+        height: 1.5rem;
+        flex-shrink: 0;
+        align-self: center;
+        margin-left: 5%;
+    }
+    label{
+        color: #969696;
+        font-family: sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;   
+        align-self: center;
+        margin-left: 2%;
+    }
+
+    .forget{
+        align-self: end;
+        color: #030517;
+        font-family: sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 20%;
+    }
+
+    .login_btn{
+        width: 22.875rem;
+        height: 3.125rem;
+        flex-shrink: 0;
+        border-radius: 0.25rem;
+        background: linear-gradient(179deg, #FF5F5F -14.51%, #F062C0 102.86%, #F23131 102.86%);
+        color: #FAFAFA;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 3%;
+        align-self: center;
+    }
+
+    .signUp{
+        color: #030517;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-self: center;
+    }
+
+    b{
+        color: #35BDAC;
+        font-family: sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: underline;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .main-container{
+        display: flex;
+    }
+
+    .left-container{
+        overflow: hidden;
+        height: 100vh;
+        position: relative;
+    }
+
+    .left-img{
+        width: 100%;
+    }
+
+    .left-text{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+        background: rgba(0, 0, 0, 0.7); 
+        color: #fff; 
+    }
+
+    .left-logo{
+        width: 7.875rem;
+        height: 2.375rem;
+        flex-shrink: 0;
+        margin-bottom: 35%;
+    }
+
+
+
+    .text{
+        color: #FAFAFA;
+        font-family: sans-serif;
+        font-size: 3.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; 
+        letter-spacing: -0.08125rem;
+    }
+
+    .won{
+        background: linear-gradient(2deg, #F231A5 -33.15%, #FF66C2 64.77%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .subtext-container{
+        font-family: sans-serif;
+        font-size: 1.625rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.25rem; 
+        letter-spacing: 0.04875rem;
+    }
+
+    .footnote{
+        position: absolute;
+        bottom: 1%;
+        left: 25%;
+
+        color: rgba(255, 255, 255, 0.80);
+        font-family: sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    /* right */
+
+    .righ-container{
+        display: flex;
+        flex-direction: column;
+        /* align-items:center ; */
+        justify-self: center;
+        /* border: 1px solid red; */
+        /* margin-top: 30%; */
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        flex: 1
+
+    }
+
+    .right-logo{
+        width: 12.5rem;
+        height: 3.73975rem;
+        flex-shrink: 0;
+        align-self: center;
+        margin-bottom: 20%;
+    }
+
+    .sign{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    .sign > h2{
+        color: #030517;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .green_bar{
+        width: 0.4375rem;
+        height: 1.9375rem;
+        background-color: #35BDAC;
+        margin-right: 2%;
+    }
+
+    .email_fild{
+        width: 100%;
+        height: 3.125rem;
+        background: #EAEAEA;
+        display: flex;
+        border-radius: 0.125rem;
+        margin-bottom: 3%;
+    }
+
+    .email_fild > img{
+        width: 1.5rem;
+        height: 1.5rem;
+        flex-shrink: 0;
+        align-self: center;
+        margin-left: 5%;
+    }
+    label{
+        color: #969696;
+        font-family: sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;   
+        align-self: center;
+        margin-left: 2%;
+    }
+
+    .forget{
+        align-self: end;
+        color: #030517;
+        font-family: sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 20%;
+    }
+
+    .login_btn{
+        width: 22.875rem;
+        height: 3.125rem;
+        flex-shrink: 0;
+        border-radius: 0.25rem;
+        background: linear-gradient(179deg, #FF5F5F -14.51%, #F062C0 102.86%, #F23131 102.86%);
+        color: #FAFAFA;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 3%;
+        align-self: center;
+    }
+
+    .signUp{
+        color: #030517;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-self: center;
+    }
+
+    b{
+        color: #35BDAC;
+        font-family: sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: underline;
+    }
+
+}

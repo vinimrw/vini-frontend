@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    
+    <title>Home</title>
+</head>
+<body>
+    <!-- logo home store        search  cart    profileicon name    arrow -->
+    <!-- burguer                logo2            seatch  cart -->
+    <nav>
+
+        <!-- PART2 -->
+
+        <!-- MAKE THE BURGER - HOME STORE PERFIL -->
+        <div class="nav_container center-content">
+            <div class="nav_left">
+                <div class="nav_text">
+                    <div class="select">Home</div>
+                    
+                    <div class="home">Store</div>
+                </div>
+                <div class="pinkbar"></div>
+            </div>
+            <div class="nav_mid">
+                <img class="logo_nav" src="./src/src_home/logo.png" alt="">
+                
+            </div>
+            <div class="nav_right">
+                <i class="fa-solid fa-magnifying-glass fa-xl i_margin"></i>
+                <i class="fa-solid fa-cart-shopping fa-xl i_margin"></i>
+                <div class="perfil">
+                    <i class="fa-regular fa-circle-user fa-xl i_margin"></i>                    <p>Jhon</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main_container">
+      <div id="splide" class="splide splide_top">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="img-container">
+                      <img src="./src/src_home/carrossel.png" alt="">
+                  </div>
+                  <div class="text-container">
+                      <h3>Defy death</h3>
+                      <p>Play the new <b>CrashLands</b> season</p>
+                      <button>Buy now</button>
+                  </div>
+                </li>
+
+                <li class="splide__slide">
+                    <div class="img-container">
+                        <img src="./src/src_home/carrossel.png" alt="">
+                    </div>
+                    <div class="text-container">
+                        <h3>Defy death</h3>
+                        <p>Play the new <b>CrashLands</b> season</p>
+                        <button>Buy now</button>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="img-container">
+                        <img src="./src/src_home/carrossel.png" alt="">
+                    </div>
+                    <div class="text-container">
+                        <h3>Defy death</h3>
+                        <p>Play the new <b>CrashLands</b> season</p>
+                        <button>Buy now</button>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <div class="img-container">
+                        <img src="./src/src_home/carrossel.png" alt="">
+                    </div>
+                    <div class="text-container">
+                        <h3>Defy death</h3>
+                        <p>Play the new <b>CrashLands</b> season</p>
+                        <button>Buy now</button>
+                    </div>
+                  </li>
+            </ul>
+        </div>
+        <div class="custom-pagination" id="custom-pagination"></div>
+      </div>
+
+      <div class="white_ret"></div>
+
+      <div class="news-container">
+        <div class="green-bar"></div>
+        <div class="text-news-black"><h1>News</h1></div>
+      </div>
+
+<div class="splid_cont">
+      <div id="splide_news" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide splide_marg" >
+                    <div class="img_cont">
+                        <img src="./src/src_home/pop.png" alt="">
+                    </div>
+                    <div class="box_cont">
+                        <div class="title_comp_cont">
+                            <div class="title_cont"><h3>Population Zero</h3></div>
+                            <div class="company_cont"><h4>Other Ocean</h4></div>
+                        </div>
+                        <div class="fav_price_cont">
+                            <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                            <div class="price_cont center-content">$300,00</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="splide__slide splide_marg">
+                    <div class="img_cont">
+                        <img src="./src/src_home/winter.png" alt="">
+                    </div>
+                    <div class="box_cont">
+                        <div class="title_comp_cont">
+                            <div class="title_cont"><h3>Project Winter</h3></div>
+                            <div class="company_cont"><h4>Other Ocean</h4></div>
+                        </div>
+                        <div class="fav_price_cont">
+                            <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                            <div class="price_cont center-content">$300,00</div>
+                        </div>
+                    </div>
+                  </li>
+
+            </ul>
+        </div>
+      </div>
+    </div>
+
+
+<!-- templete -->
+      <!-- <div class="cont">
+        <div class="img_cont">
+            <img src="./src/src_home/pop.png" alt="">
+        </div>
+        <div class="box_cont">
+            <div class="title_comp_cont">
+                <div class="title_cont"><h3>Population Zero</h3></div>
+                <div class="company_cont"><h4>Other Ocean</h4></div>
+            </div>
+            <div class="fav_price_cont">
+                <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                <div class="price_cont center-content">$300,00</div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <div class="news-container">
+        <div class="green-bar"></div>
+        <div class="text-news"><h1>Most popular</h1></div>
+      </div>
+
+      <div class="container_popular">
+        <img src="./src/src_home/rdr.png" alt="" class="popular">
+        <div class="overlay">
+            <div class="text_popular">Read Dead it’s back</div>
+            <div class="text_subpopular">Come see John’s new adventures</div>
+            <button class="btn_popular">Buy now</button>
+        </div>
+    </div>
+
+
+    <div class="splid_cont">
+        <div id="splide_popular" class="splide">
+          <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide splide_marg">
+                      <div class="img_cont">
+                          <img src="./src/src_home/pop.png" alt="">
+                      </div>
+                      <div class="box_cont">
+                          <div class="title_comp_cont">
+                              <div class="title_cont"><h3>Population Zero</h3></div>
+                              <div class="company_cont"><h4>Other Ocean</h4></div>
+                          </div>
+                          <div class="fav_price_cont">
+                              <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                              <div class="price_cont center-content">$300,00</div>
+                          </div>
+                      </div>
+                  </li>
+  
+                  <li class="splide__slide splide_marg">
+                      <div class="img_cont">
+                          <img src="./src/src_home/winter.png" alt="">
+                      </div>
+                      <div class="box_cont">
+                          <div class="title_comp_cont">
+                              <div class="title_cont"><h3>Project Winter</h3></div>
+                              <div class="company_cont"><h4>Other Ocean</h4></div>
+                          </div>
+                          <div class="fav_price_cont">
+                              <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                              <div class="price_cont center-content">$300,00</div>
+                          </div>
+                      </div>
+                    </li>
+  
+              </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="news-container">
+        <div class="green-bar"></div>
+        <div class="text-news"><h1>Up coming</h1></div>
+      </div>
+
+
+
+
+
+      <div class="splid_cont">
+        <div id="splide_coming" class="splide">
+          <div class="splide__track">
+              <ul class="splide__list ">
+                  <li class="splide__slide splide_marg ">
+                      <div class="img_cont">
+                          <img src="./src/src_home/pop.png" alt="">
+                      </div>
+                      <div class="box_cont">
+                          <div class="title_comp_cont">
+                              <div class="title_cont"><h3>Population Zero</h3></div>
+                              <div class="company_cont"><h4>Other Ocean</h4></div>
+                          </div>
+                          <div class="fav_price_cont">
+                              <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                              <div class="price_cont center-content">$300,00</div>
+                          </div>
+                      </div>
+                  </li>
+  
+                  <li class="splide__slide splide_marg">
+                      <div class="img_cont">
+                          <img src="./src/src_home/winter.png" alt="">
+                      </div>
+                      <div class="box_cont">
+                          <div class="title_comp_cont">
+                              <div class="title_cont"><h3>Project Winter</h3></div>
+                              <div class="company_cont"><h4>Other Ocean</h4></div>
+                          </div>
+                          <div class="fav_price_cont">
+                              <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                              <div class="price_cont center-content">$300,00</div>
+                          </div>
+                      </div>
+                    </li>
+  
+              </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container_popularL">
+        <img src="./src/src_home/Group 21 (1).png" alt="" class="popularL">
+        <div class="overlayL">
+            <div class="text_popularL">Borderlands 3</div>
+            <div class="text_subpopularL">Borderlands it’s back.</div>
+            <button class="btn_popular">Buy now</button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="news-container">
+        <div class="green-bar"></div>
+        <div class="text-news"><h1>Free Games</h1></div>
+      </div>
+
+      <div class="container_popular">
+        <img src="./src/src_home/CS_GO.png" alt="" class="popular">
+        <div class="overlay">
+            <!-- <div class="text_popular"></div>
+            <div class="text_subpopular"></div> -->
+            <button class="btn_popular_free">Download Now</button>
+        </div>
+    </div>
+
+      <div class="splid_cont">
+        <div id="splide_free" class="splide">
+          <div class="splide__track">
+              <ul class="splide__list">
+
+
+                  <li class="splide__slide splide_marg">
+                      <div class="img_cont">
+                          <img src="./src/src_home/pop.png" alt="">
+                          <div class="descount_img center-content">20% OFF</div>
+                      </div>
+
+                      
+
+                      <div class="box_cont">
+                          <div class="title_comp_cont">
+                              <div class="title_cont"><h3>Population Zero</h3></div>
+                              <div class="company_cont"><h4>Other Ocean</h4></div>
+                          </div>
+                          <div class="descount">$400,00</div>
+                          <div class="fav_price_cont">
+                              <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                              <div class="price_cont center-content">$300,00</div>
+                          </div>
+                      </div>
+                  </li>
+
+
+                  <li class="splide__slide splide_marg">
+                    <div class="img_cont">
+                        <img src="./src/src_home/boderelands.png" alt="">
+                        <div class="descount_img center-content">30% OFF</div>
+                    </div>
+
+                    
+
+                    <div class="box_cont">
+                        <div class="title_comp_cont">
+                            <div class="title_cont"><h3>Population Zero</h3></div>
+                            <div class="company_cont"><h4>Other Ocean</h4></div>
+                        </div>
+                        <div class="descount">$400,00</div>
+                        <div class="fav_price_cont">
+                            <div class="fav_cont right-content"><i class="fa-regular fa-heart"></i></div>
+                            <div class="price_cont center-content">$300,00</div>
+                        </div>
+                    </div>
+                </li>
+  
+  
+              </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- main contianer -->
+    </div> 
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+<script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+        var splide = new Splide('#splide', {
+        // pagination: false, // Disable default pagination
+        type: 'loop',
+        arrows: false,
+        autoplay: true,
+
+        }).mount();
+      
+
+        var customPagination = document.getElementById('custom-pagination');
+
+    for (var i = 0; i < splide.length; i++) {
+      var item = document.createElement('div');
+      item.classList.add('custom-pagination-item');
+      item.setAttribute('data-splide-page', i);
+      customPagination.appendChild(item);
+    }
+
+    splide.on('move', function () {
+      var activeIndex = splide.index;
+      var items = customPagination.querySelectorAll('.custom-pagination-item');
+      items.forEach(function (item, index) {
+        index === activeIndex ? item.classList.add('active') : item.classList.remove('active');
+      });
+    });
+    //     new Splide( '#splide', {
+    //     type: 'loop',
+    //     arrows: false,
+    //     autoplay: true
+    //   } ).mount();
+
+      new Splide( '#splide_news', {
+        type: 'loop',
+        perPage: 3,
+        
+        breakpoints: {
+        768: {
+          perPage: 1, // 1 elemento por slide em dispositivos móveis (menos de 768 pixels)
+          arrows: false
+        }},
+        arrows: true,
+        autoplay: true,
+        pagination: false
+      } ).mount();
+
+      new Splide( '#splide_popular', {
+        type: 'loop',
+        perPage: 3,
+        
+        breakpoints: {
+        768: {
+          perPage: 1, 
+          arrows: false
+        }},
+        arrows: true,
+        autoplay: true,
+        pagination: false
+      } ).mount();
+
+      
+      new Splide( '#splide_coming', {
+        type: 'loop',
+        perPage: 3,
+        
+        breakpoints: {
+        768: {
+          perPage: 1, 
+          arrows: false
+        }},
+        arrows: true,
+        autoplay: true,
+        pagination: false
+      } ).mount();
+
+      new Splide( '#splide_free', {
+        type: 'loop',
+        perPage: 3,
+        
+        breakpoints: {
+        768: {
+          perPage: 1,
+          arrows: false
+        }},
+        arrows: true,
+        autoplay: true,
+        pagination: false
+      } ).mount();
+    } );
+  </script>
+</body>
+
+
+<footer>
+
+    <div class="rectangle"></div>
+
+    <img class="f_img" src="./src/src_home/logo_f.png" alt="">
+    <div class="f_container center-content-w">
+        <div class="left">
+
+            <div class="titletext">
+                <h2>Contact</h2>
+                <div class="gree-bar"></div>
+                <div class="subtext">suporte@wongames.gg</div>
+                <div class="subtext">+55 21 33283719</div>
+            </div>
+
+            <div class="titletext">
+                <h2>Links</h2>
+                <div class="gree-bar"></div>
+                <div class="subtext">Loja</div>
+                <div class="subtext">Explorar</div>
+                <div class="subtext">Buscar</div>
+                <div class="subtext">FAQ</div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="titletext">
+                <h2>follow us</h2>
+                <div class="gree-bar_follow"></div>
+                <div class="subtext">Instagram</div>
+                <div class="subtext">Twitter</div>
+                <div class="subtext">YouTube</div>
+                <div class="subtext">Facebook</div>
+            </div>
+
+
+            <div class="titletext2 nopad">
+                <h2>location</h2>
+                <div class="gree-bar"></div>
+                <div class="subtext">Rua 7 de Maio</div>
+                <div class="subtext">527  - 89020330</div>
+                <div class="subtext">Rio de Janeiro, Brasil</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="rights center-content ">Won Games 2020 © Todos os Direitos Reservados</div>
+</footer>
+
+
+</html>

@@ -21,6 +21,7 @@ function submitForm() {
     .then(data => {
       
       // Verifica se o accessToken está definido
+      //=====================! se nao //transform into funtion TO DO=====================
       if (data.access_token) {
 
         const accessToken = data.access_token;
